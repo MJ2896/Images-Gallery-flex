@@ -12,3 +12,15 @@ header{
         width: 21vw;
         display: block;
     }
+
+    @media (max-width: 1024px) {
+        .albumdefotos img{ 
+            width: 40vw;
+        }
+        }
+
+    @media (max-width: 600px) {
+        .albumdefotos img{
+            width: 85vw;
+        }
+    }
