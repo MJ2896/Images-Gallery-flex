@@ -2,3 +2,13 @@ header{
     text-align: center;
     background-color: crimson;
 }
+.albumdefotos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    }
+
+    .albumdefotos img {
+        width: 21vw;
+        display: block;
+    }
